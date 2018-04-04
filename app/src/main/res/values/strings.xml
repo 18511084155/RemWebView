@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RemWebView</string>
+    <string name="urlTips">请输入url地址</string>
+    <string name="urlTitle">Url地址：</string>
+</resources>

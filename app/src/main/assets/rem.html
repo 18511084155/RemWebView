@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/media.css" />
+	<link rel="stylesheet" type="text/css" href="css/flexible.css" />
+	<script type="text/javascript" src="js/flexible.js"></script>
+	<title>rem</title>
+	<style>
+		html,body{margin: 0;padding: 0;}
+	</style>
+</head>
+<body>
+	<div id="debug">
+		
+	</div>
+	<div id="wrapper">
+		<!-- content text -->
+		<p style="
+		    font-size:1rem
+		    /*通过 font-size:16px; 除以16计算出来*/
+		">世界主要军事列强国家，例如美国、俄罗斯，以及东亚某国，都不约而同的装备一种能够由战略轰炸机发射的远程巡航导弹。军事大国发展远程巡航导弹的主要原因是巡航导弹具有射程远、弹道灵活、突防概率高等优点，能够用来在战争初期进行“踢门”作战，首先打掉敌方的防空系统和指挥系统。典型的型号有中国由轰6K轰炸机发射的AKD20巡航导弹和美国由B52轰炸机发射的战斧式巡航导弹。俄罗斯也自然不能例外，早在苏联时期就研制了X55型巡航导弹，并且在这种导弹面世以后四十年，进行了首次实战。</p>
+		
+		<!-- icon -->
+		<img src="up.png" alt="向上" style="position:fixed;
+		    bottom:0.625rem;right:0.625rem;width:3rem;height:3rem;
+		    /*通过 bottom:10px;right:10px;width:48px;height:48px; 各除以16计算出来*/
+		">
+
+		<!-- photo -->
+		<img src="p1.jpg" alt="向上" style="margin:0 auto;display:block;
+		    width:18.75rem;height:12.5rem;
+		    /*通过 width:300px;height:200px; 各除以16计算出来*/
+		">
+
+	</div>
+
+</body>
+</html>

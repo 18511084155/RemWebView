@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/flexible.js"></script>
+    <style>
+      html,body {
+        margin: 0;
+        padding: 0;
+      }
+        div.column {
+            position: absolute
+            width: 100%;
+            height: 100%;
+        }
+        .figure {
+            width: 20rem;
+            height: 79.1875rem;
+            margin: 0;
+            background-color: #eee;
+            background-image:url(http://oivzgwpl4.qnssl.com/FsQR6OhzrcT0qlgxVDmvoqBwxtbM);
+            background-repeat:no-repeat;
+            -webkit-background-size:100% 100%;
+            -moz-background-size:100% 100%;
+            -o-background-size:100% 100%;
+            background-size:100% 100%;
+            background-position: center;  /* Internet Explorer 7/8 */
+        }
+         .button {
+            position: absolute;
+            top: 41.5rem;
+            left: 4.7rem;
+            height: 3rem;
+            width: 10.5rem;
+            border: white 2px solid
+          }
+
+    </style>
+</head>
+<body>
+<!--
+
+前提是你们整个背景是一个图片，然后在图片上面定位，做一些操作的话，需要针对img标签换改backgroud，否则不需要转换成backgroud。
+原因：使用img的话，出现缩放适配有问题，不算错乱。（主要原因是某些手机厂商修改了浏览器内核导致的，没有按照规范导致的一些问题）
+-->
+<div class="column">
+    <div class="figure"></div>
+</div>
+<a class="button"></a>
+</body>
+</html>
